@@ -1,2 +1,2 @@
 export * from './config';
-export * from './endpoints';
+export { default as endpoints } from './endpoints';

@@ -1,4 +1,4 @@
-export const endpoints = {
+export default {
   home: '/',
   login: '/login',
   signup: '/signup',
