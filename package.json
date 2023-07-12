@@ -2,13 +2,15 @@
   "name": "vite-demo-project",
   "description": "",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "engines": {
     "node": ">=16.0.0"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "react"
+  ],
+  "author": "satish sahu",
   "repository": {
     "type": "git",
     "url": "https://github.com/satish120699/vite-demo-project.git"
@@ -24,7 +26,7 @@
     "lint:fix": "eslint . --fix",
     "format-check": "prettier --check \"**/*.{js,jsx,ts,tsx,mjs,cjs,css,scss,sass,md,html,json}\"",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,mjs,cjs,css,scss,sass,md,html,json}\"",
-    "lint-staged": "npx lint-staged --concurrent false",
+    "lint-staged": "lint-staged --concurrent false",
     "pretty-quick": "npx pretty-quick --staged",
     "prepare": "rm -rf .husky && husky install && husky add .husky/pre-commit \"npm run lint-staged \nnpm run pretty-quick\""
   },
@@ -55,6 +57,7 @@
     "eslint-plugin-react-refresh": "^0.4.1",
     "eslint-plugin-sonarjs": "^0.19.0",
     "husky": "^8.0.3",
+    "lint-staged": "^13.2.3",
     "prettier": "^3.0.0",
     "typescript": "^5.0.2",
     "vite": "^4.4.0"
