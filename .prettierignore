@@ -1,0 +1,27 @@
+.next
+next-env.d.ts
+node_modules
+package-lock.json
+yarn.lock
+.husky
+.vscode/*
+
+#build
+dist
+/dist/*
+build
+/build/*
+
+# Auto Generated PWA files
+**/public/sw.js
+**/public/workbox-*.js
+**/public/worker-*.js
+**/public/sw.js.map
+**/public/workbox-*.js.map
+**/public/worker-*.js.map
+
+# test for local 
+test.js
+test1.js
+op.js
+op1.js
