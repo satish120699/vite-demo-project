@@ -1,15 +1,7 @@
-import { Button } from './design-system';
+import { HomePage } from './pages';
 
 function App() {
-  return (
-    <>
-      <h1>hwllo</h1>
-      <Button name="Click" />
-      <Button name="show" />
-      <Button name="open" />
-      <Button name="Click" />
-    </>
-  );
+  return <HomePage />;
 }
 
 export default App;
